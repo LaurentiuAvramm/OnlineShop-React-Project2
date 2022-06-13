@@ -37,7 +37,7 @@ function Footer() {
                 <div>
                     <h3 className="h5">Contactează-mă:</h3>
                     <p className="mb-1">
-                        <a href="https://github.com/lauravm12">
+                        <a href="https://github.com/laurentiuavram">
                             <GitHub className="mr-1 mb-1 footer-icon"/>
                           Lauravm12
                         </a>
