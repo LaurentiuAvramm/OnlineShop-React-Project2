@@ -13,7 +13,7 @@ class Home extends React.Component{
             categoryNames: []
         };
 }
-// de trecut in notepad & excel - object.values, object.keys
+
 componentDidMount() {
     const categories = Object.values(products);
     const categoryNames = Object.keys(products);

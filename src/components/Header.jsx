@@ -11,7 +11,7 @@ import { logoutUser } from '../redux/actions/user';
 
 function Header(props) {
     // console.log(props);
-    // const { numberOfProducts, user, logout} = props;
+    
     return (
         <div className="header d-flex justify-content-between align-items-center container bg-light">
            <Link to="/"> 
@@ -44,7 +44,7 @@ function Header(props) {
 function mapStateToProps(state) {
     return {
         numberOfProducts: state.cart.products.length,
-        // user: state.user.props.data
+       
     }
 }
 
